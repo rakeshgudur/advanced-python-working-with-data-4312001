@@ -23,8 +23,12 @@ nums = (1, 8, 4, 5, 13, 26, 381, 410, 58, 47)
 chars = "abcDeFGHiJklmnoP"
 
 # TODO: use filter to remove items from a list
+odds=list(filter(filterEvens,nums))
+print(odds)
 
 # TODO: use filter on non-numeric sequence
+lowers=list(filter(filterUppers,chars))
+print(lowers)
 
 # Use the filter on our data - let's filter out all seismic events that were *not* quakes
 # open the data file and load the JSON
